@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Timestamp Microservice App</title>
+    <link rel="shortcut icon" href="https://github.com/johnchristotle/icon.png" type="icon/png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h2>Timestamp Microservice App</h2>
+
+    <form action="/api/timestampform" method="POST">
+      <label for="url_input">Enter an ISO Date or Timestamp</label>
+      <input id="url_input" type="text" name="input" />
+      <input type="submit" value="GET TIME" />
+    </form>
+
+    <button onclick="window.location.href='/api/timestamp'">
+      Get Current Time
+    </button>
+
+    <div class="container">
+      <h3>Example Usage:</h3>
+      <a href="api/timestamp/2015-12-25"
+        >[project url]/api/timestamp/2015-12-25</a
+      ><br />
+      <a href="api/timestamp/1451001600000"
+        >[project url]/api/timestamp/1451001600000</a
+      ><br /><br />
+      <h3>Example Output:</h3>
+      <p>
+        <code
+          >{"unix":1451001600000, "utc":"Fri, 25 Dec 2015 00:00:00 GMT"}</code
+        >
+      </p>
+    </div>
+
+    <p>by <a href="https://nesh.gq">Christotle Agholor</a></p>
+  </body>
+</html>

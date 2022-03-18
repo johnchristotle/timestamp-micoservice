@@ -371,9 +371,9 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-    background-color: wheat;
+    background-color: rgb(252, 251, 249);
     border: 1px solid #babdb6;
-    color: #d3d7cf;
+    color: black;
 }
 
 input[type="email"]:focus,

@@ -2,10 +2,6 @@
 # API Project: Timestamp Microservice for FCC
 
 
-view Live App here
-https://glitch.com/~timestamp-microservice-app-johnchristotle
-
-
 ### User stories:
 
 [![Run on Repl.it](https://repl.it/badge/github/freeCodeCamp/boilerplate-project-timestamp)](https://repl.it/github/freeCodeCamp/boilerplate-project-timestamp)
